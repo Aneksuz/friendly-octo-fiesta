@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         accent: "#DD5F63",
+        prim: "#101318",
         bg: "#191F2F",
       },
       fontFamily: {

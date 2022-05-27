@@ -18,3 +18,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  font-family: nunito;
+  font-size: 2.441rem;
+  font-weight: 700;
+}
