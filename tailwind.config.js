@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: "#DD5F63",
-        prim: "#101318",
-        bg: "#191F2F",
+        accent: "#FF3E44",
+        prim: "#1C2337",
+        bg: "#090A0E",
       },
       fontFamily: {
         nunito: ['"Nunito"'],
