@@ -1,12 +1,14 @@
 import React from "react";
 
-const Nav = () => {
+const Nav = ({ icon, title, button }) => {
   return (
-    <nav>
-      <div>
-        <div>ICON</div>
-        <h1>TOMATODO</h1>
+    <nav className="flex justify-between">
+      <div>{button}</div>
+      <div className="flex flex-row justify-center items-center">
+        <div>{icon}</div>
+        <h1>{title}</h1>
       </div>
+      <div></div>
     </nav>
   );
 };
