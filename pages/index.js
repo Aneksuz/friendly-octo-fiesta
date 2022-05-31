@@ -5,6 +5,12 @@ import Timer from "../components/Timer";
 import Button from "../components/Button";
 
 export default function Home() {
+  const [pomodoro, setPomodoro] = useState(25);
+
+  const [sessions, setSessions] = useState(4);
+
+  const [Break, setBreak] = useState(5);
+
   return (
     <div className=" bg-bg min-h-screen">
       <div className="bg-white max-w-2xl min-h-screen mx-auto">
