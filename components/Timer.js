@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Timer = () => {
+  const [active, setActive] = useState("off");
+
   return (
     <div>
-      <h1 className="select-none ">25:00</h1>
+      <h1 className="select-none text-[3.052rem]">25:00</h1>
     </div>
   );
 };
