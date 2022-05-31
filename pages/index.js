@@ -3,6 +3,7 @@ import Image from "next/image";
 import Nav from "../components/Nav";
 import Timer from "../components/Timer";
 import Button from "../components/Button";
+import React, { useState } from "react";
 
 export default function Home() {
   const [pomodoro, setPomodoro] = useState(25);
